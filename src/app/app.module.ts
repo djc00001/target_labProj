@@ -6,6 +6,7 @@ import { CircularCard } from './FeaturedCat Circular Cards/circular.card.compone
 import { TopLeftSideComponent } from './header/leftside.component';
 import { TopNavBarComponent } from './header/topnavbar.component';
 import { TopRightSideComponent } from './header/toprightside.component';
+import { ValentinesAd } from './homepagead/valentine.ad.component';
 import { SecondaryLeftSideComponent } from './secondary header/secondary.leftside.component';
 import { SecondaryRightSideComponent } from './secondary header/secondary.rightside.component';
 import { SecondaryNavBarComponent } from './secondary header/secondarynavbar.component';
@@ -19,7 +20,8 @@ import { SecondaryNavBarComponent } from './secondary header/secondarynavbar.com
     SecondaryLeftSideComponent,
     SecondaryRightSideComponent,
     SecondaryNavBarComponent,
-    CircularCard
+    CircularCard,
+    ValentinesAd
   ],
   imports: [
     BrowserModule

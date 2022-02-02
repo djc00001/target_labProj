@@ -1,0 +1,24 @@
+.card{
+    border-style: none;
+}
+
+.bckgrnd-img{
+    position: relative;
+}
+.caption{
+    position: absolute;
+    top: 45%;
+    left: 100;
+    width: 50%;
+}
+
+.card-link{
+    color: gray;
+    
+}
+
+.btn-primary{
+    color: gray;
+    background-color: white;
+    border-color: gray;
+}
