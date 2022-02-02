@@ -1,6 +1,6 @@
 .round-card{
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
 }
 
 .card-link{
@@ -11,4 +11,8 @@
 .image-link{
     width: 220px;
     height: 220px;
+}
+
+.card{
+    border-style: none;
 }
