@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { CircularCard } from './FeaturedCat Circular Cards/circular.card.component';
 import { TopLeftSideComponent } from './header/leftside.component';
 import { TopNavBarComponent } from './header/topnavbar.component';
 import { TopRightSideComponent } from './header/toprightside.component';
@@ -17,7 +18,8 @@ import { SecondaryNavBarComponent } from './secondary header/secondarynavbar.com
     TopRightSideComponent,
     SecondaryLeftSideComponent,
     SecondaryRightSideComponent,
-    SecondaryNavBarComponent
+    SecondaryNavBarComponent,
+    CircularCard
   ],
   imports: [
     BrowserModule
