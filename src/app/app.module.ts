@@ -7,6 +7,7 @@ import { TopLeftSideComponent } from './header/leftside.component';
 import { TopNavBarComponent } from './header/topnavbar.component';
 import { TopRightSideComponent } from './header/toprightside.component';
 import { ValentinesAd } from './homepagead/valentine.ad.component';
+import { ValentinesBoxCard } from './homepagead/valentine.boxcard.component';
 import { SecondaryLeftSideComponent } from './secondary header/secondary.leftside.component';
 import { SecondaryRightSideComponent } from './secondary header/secondary.rightside.component';
 import { SecondaryNavBarComponent } from './secondary header/secondarynavbar.component';
@@ -21,7 +22,8 @@ import { SecondaryNavBarComponent } from './secondary header/secondarynavbar.com
     SecondaryRightSideComponent,
     SecondaryNavBarComponent,
     CircularCard,
-    ValentinesAd
+    ValentinesAd,
+    ValentinesBoxCard
   ],
   imports: [
     BrowserModule

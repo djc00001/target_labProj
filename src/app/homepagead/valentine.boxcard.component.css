@@ -1,0 +1,12 @@
+.card{
+    background-color: #fcd971;
+    text-align: center; 
+}
+
+.card-link{
+    color: #333333;
+    text-decoration: none;
+}
+.card-link:hover{
+    text-decoration: underline;
+}
