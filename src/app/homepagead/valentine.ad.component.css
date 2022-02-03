@@ -13,8 +13,15 @@
 }
 
 .card-link{
-    color: gray;
-    
+    color: #333333;
+    text-align: left;
+    padding-left: 375px;
+}
+h5 p{
+    text-decoration: none;
+}
+h5 p:hover{
+    text-decoration: underline;
 }
 
 .btn-primary{
