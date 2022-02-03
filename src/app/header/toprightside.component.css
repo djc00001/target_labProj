@@ -1,3 +1,16 @@
 .nav-link {
     color: white;
 }
+
+.input-group{
+    text-align: left;
+}
+
+.input-group input{
+    width: 541.33px;
+    border-radius: 25px;
+}
+
+.input-group span{
+    border-radius: 25px;
+}
