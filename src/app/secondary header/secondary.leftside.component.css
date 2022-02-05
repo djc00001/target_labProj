@@ -1,3 +1,13 @@
 .nav-link {
     color: gray
   }
+
+  .dropdown-menu {
+    max-height: 700px;
+    overflow-y: scroll;
+    width: 400px;
+    text-align: left;
+    position: absolute;
+    top: 53px; 
+    left: -12px;
+  }
