@@ -10,3 +10,24 @@ li a{
 li a:hover{
     text-decoration: underline;
 }
+
+.dropdown-menu{
+    width: 320px;
+    text-align: left;
+    position: absolute;
+   top: 70px; 
+   left: -50px;
+}
+.cat-dropdown {
+    max-height: 700px;
+    overflow-y: scroll;
+    width: 400px;
+    text-align: left;
+    position: absolute;
+   top: 70px; 
+   left: -99px;
+  }
+
+  .main-menu{
+      text-emphasis: bold;
+  }
