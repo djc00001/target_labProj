@@ -15,8 +15,8 @@ li a:hover{
     width: 320px;
     text-align: left;
     position: absolute;
-   top: 70px; 
-   left: -50px;
+    top: 68px; 
+    left: -50px;
 }
 .cat-dropdown {
     max-height: 700px;
@@ -24,8 +24,8 @@ li a:hover{
     width: 400px;
     text-align: left;
     position: absolute;
-   top: 70px; 
-   left: -99px;
+    top: 68px; 
+    left: -99px;
   }
 
   .main-menu{

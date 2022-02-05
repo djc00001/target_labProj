@@ -2,6 +2,14 @@
     color: white;
 }
 
+.dropdown-menu {
+    width: 400px;
+    text-align: left;
+    position: absolute;
+    top: 88px; 
+    left: -241px;
+  }
+
 .input-group{
     text-align: left;
 }
