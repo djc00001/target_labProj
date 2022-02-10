@@ -1,6 +1,7 @@
 .card{
     background-color: #fcd971;
-    text-align: center; 
+    text-align: center;
+    width: 20rem;
 }
 
 .card-link{
@@ -9,4 +10,10 @@
 }
 .card-link:hover{
     text-decoration: underline;
+}
+
+.description{
+    color: #7c7c7c; 
+    max-width: 15px;
+    word-wrap: break-word; 
 }
