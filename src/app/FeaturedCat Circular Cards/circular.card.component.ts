@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: "target-circular-category-card",
@@ -6,5 +6,11 @@ import { Component } from "@angular/core";
     styleUrls: ["circular.card.component.css"]
 })
 export class CircularCard {
+    @Input() img: string;
+    @Input() category: string;
 
+    constructor(){
+        this.img = "";
+        this.category = "";
+    }
 }
