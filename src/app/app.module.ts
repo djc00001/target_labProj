@@ -11,6 +11,8 @@ import { ValentinesBoxCard } from './homepagead/valentine.boxcard.component';
 import { SecondaryLeftSideComponent } from './secondary header/secondary.leftside.component';
 import { SecondaryRightSideComponent } from './secondary header/secondary.rightside.component';
 import { SecondaryNavBarComponent } from './secondary header/secondarynavbar.component';
+import { AppRoutingModule } from './app-routing.module';
+import { BlackHistoryComponent } from './Routing/black-history.component';
 
 @NgModule({
   declarations: [
@@ -23,10 +25,12 @@ import { SecondaryNavBarComponent } from './secondary header/secondarynavbar.com
     SecondaryNavBarComponent,
     CircularCard,
     ValentinesAd,
-    ValentinesBoxCard
+    ValentinesBoxCard,
+    BlackHistoryComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
