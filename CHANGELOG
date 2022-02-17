@@ -1,0 +1,13 @@
+Main Features:
+- Added 5 new Basic Route pages that are all found under the Categories dropdown
+  - Celebrate Black History Month
+  - Easter
+  - Grocery
+  - Women
+  - Men
+- Also added "home page routing" that can be done by clicking on the target logo or on the Main Menu link in the Categories dropdown
+- Added Flex layout for the home page, and adjusted the components to fit within the new boundaries
+- Created the flex layout for the 5 new pages although no components are implemented on any of them yet.
+
+Side Features:
+- None this week
