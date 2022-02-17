@@ -10,13 +10,5 @@ import { circular_cards_list } from './FeaturedCat Circular Cards/circular_cards
 })
 export class AppComponent {
   title = 'target-labProj';
-  boxcards: BoxcardCompModel [] = [];
-  circular_cards_list: any = circular_cards_list;
-
-  constructor() {
-    for(var boxcard_comp of mock_boxcard_list){
-      console.log(boxcard_comp);
-      this.boxcards.push(boxcard_comp)
-    }
-  }
+  
 }

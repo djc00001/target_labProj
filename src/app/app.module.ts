@@ -13,6 +13,7 @@ import { SecondaryRightSideComponent } from './secondary header/secondary.rights
 import { SecondaryNavBarComponent } from './secondary header/secondarynavbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BlackHistoryComponent } from './Routing/black-history.component';
+import { HomeLayoutComponent } from './Routing/home-layout.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { BlackHistoryComponent } from './Routing/black-history.component';
     CircularCard,
     ValentinesAd,
     ValentinesBoxCard,
-    BlackHistoryComponent
+    BlackHistoryComponent,
+    HomeLayoutComponent
   ],
   imports: [
     BrowserModule,

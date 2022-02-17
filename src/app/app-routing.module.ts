@@ -1,8 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, RouterModule, Routes } from '@angular/router';
+import { BlackHistoryComponent } from './Routing/black-history.component';
+import { HomeLayoutComponent } from './Routing/home-layout.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: '', component: HomeLayoutComponent},
+  {path: 'home', component: HomeLayoutComponent},
+  {path: 'Black-History', component: BlackHistoryComponent}
+];
 
 @NgModule({
   declarations: [],
