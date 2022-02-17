@@ -14,6 +14,10 @@ import { SecondaryNavBarComponent } from './secondary header/secondarynavbar.com
 import { AppRoutingModule } from './app-routing.module';
 import { BlackHistoryComponent } from './Routing/black-history.component';
 import { HomeLayoutComponent } from './Routing/home-layout.component';
+import { EasterRouteComponent } from './Routing/easter-route.component';
+import { WomenRouteComponent } from './Routing/women-route.component';
+import { GroceryRouteComponent } from './Routing/grocery-route.component';
+import { MenRouteComponent } from './Routing/men-route.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { HomeLayoutComponent } from './Routing/home-layout.component';
     ValentinesAd,
     ValentinesBoxCard,
     BlackHistoryComponent,
-    HomeLayoutComponent
+    HomeLayoutComponent,
+    EasterRouteComponent,
+    WomenRouteComponent,
+    GroceryRouteComponent,
+    MenRouteComponent
   ],
   imports: [
     BrowserModule,
