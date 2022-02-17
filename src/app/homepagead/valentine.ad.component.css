@@ -15,7 +15,7 @@
 .card-link{
     color: #333333;
     text-align: left;
-    padding-left: 375px;
+    padding-left: 50px;
 }
 h5 p{
     text-decoration: none;
@@ -28,4 +28,5 @@ h5 p:hover{
     color: gray;
     background-color: white;
     border-color: gray;
+    margin-left: -350px;
 }
