@@ -18,6 +18,7 @@ import { EasterRouteComponent } from './Routing/easter-route.component';
 import { WomenRouteComponent } from './Routing/women-route.component';
 import { GroceryRouteComponent } from './Routing/grocery-route.component';
 import { MenRouteComponent } from './Routing/men-route.component';
+import { GroceryBoxAd } from './GroceryPage/grocery.box.ad.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { MenRouteComponent } from './Routing/men-route.component';
     EasterRouteComponent,
     WomenRouteComponent,
     GroceryRouteComponent,
-    MenRouteComponent
+    MenRouteComponent,
+    GroceryBoxAd
   ],
   imports: [
     BrowserModule,

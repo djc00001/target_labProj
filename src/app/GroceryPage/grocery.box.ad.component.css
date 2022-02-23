@@ -1,0 +1,20 @@
+.card-body{
+    height: 130px;
+}
+
+.non-red-text{
+    color: #444444;
+}
+
+.red-text{
+    color: red;
+    text-decoration: none;
+}
+
+.card{
+    border-radius: 15px;
+}
+
+.card-img-top{
+    border-radius: 15px 15px 0px 0px;
+}
