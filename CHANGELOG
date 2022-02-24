@@ -1,3 +1,18 @@
+LAB ASSIGNMENT 5
+Main Features:
+- Added 6 new components in total between the grocery page and the women page
+  - Grocery Page has 4 new components on it which are shown in the screenshots
+  - Women Page has 2 new components on it which are also shown in screenshots
+- **Note** The ng For loop has NOT been implemented, decided to submit working something with at least 6 new things implemented
+- Formatting of both implemented pages occured
+- Default routing added at the top of both pages by clicking on the "target" which is underlined under Grocery and Woman
+
+Side Features:
+- None this week
+
+
+
+
 Main Features:
 - Added 5 new Basic Route pages that are all found under the Categories dropdown
   - Celebrate Black History Month
