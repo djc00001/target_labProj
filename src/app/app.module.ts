@@ -22,6 +22,8 @@ import { GroceryBoxAd } from './GroceryPage/grocery.box.ad.component';
 import { GroceryDeals } from './GroceryPage/grocery.deals.component';
 import { GroceryIdeasBox } from './GroceryPage/grocery.ideas.box.component';
 import { WhatsLatest } from './WomenPage/whats.latest.component';
+import { StyleBoost } from './WomenPage/style.boost.component';
+import { StyleBoxCard } from './WomenPage/style.boxcard.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import { WhatsLatest } from './WomenPage/whats.latest.component';
     GroceryBoxAd,
     GroceryDeals,
     GroceryIdeasBox,
-    WhatsLatest
+    WhatsLatest,
+    StyleBoost,
+    StyleBoxCard
   ],
   imports: [
     BrowserModule,

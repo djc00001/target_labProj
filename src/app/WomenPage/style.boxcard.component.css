@@ -1,0 +1,28 @@
+.card{
+    width: 260px;
+    height: 346.66px;
+    margin-left: 32px;
+    border-radius: 0px;
+}
+.unbolded-text{
+    color: #333333;
+    text-align: left;
+    margin-top: -315px;
+    margin-left: 25px;
+}
+
+.bolded-text{
+    color: #333333;
+    text-align: left;
+    margin-top: -17px;
+    margin-left: 25px;
+}
+
+.image-link{
+    text-decoration: none;
+}
+
+.image-link:hover{
+    text-decoration: underline;
+    color: #333333;
+}
