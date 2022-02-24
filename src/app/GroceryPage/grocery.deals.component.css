@@ -1,0 +1,39 @@
+.card{
+    max-width: 212px;
+    max-height: 426.84px;
+    border-radius: 5px;
+}
+
+.card-img{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 178px;
+    max-height: 178px;
+}
+
+.btn{
+    background-color: #e40a0a;;
+    font-weight: bold;
+    border: none;
+    float: right;
+}
+
+.url{
+    text-decoration: none;
+}
+
+.url:hover{
+    text-decoration: underline;
+}
+
+.card-link{
+    color: black;
+}
+
+.red-card-link{
+    color: #e40a0a;
+    font-size: small;
+    max-width: 178px;
+    text-overflow: clip ellipsis;
+}
+

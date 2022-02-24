@@ -19,6 +19,8 @@ import { WomenRouteComponent } from './Routing/women-route.component';
 import { GroceryRouteComponent } from './Routing/grocery-route.component';
 import { MenRouteComponent } from './Routing/men-route.component';
 import { GroceryBoxAd } from './GroceryPage/grocery.box.ad.component';
+import { GroceryDeals } from './GroceryPage/grocery.deals.component';
+import { GroceryIdeasBox } from './GroceryPage/grocery.ideas.box.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { GroceryBoxAd } from './GroceryPage/grocery.box.ad.component';
     WomenRouteComponent,
     GroceryRouteComponent,
     MenRouteComponent,
-    GroceryBoxAd
+    GroceryBoxAd,
+    GroceryDeals,
+    GroceryIdeasBox
   ],
   imports: [
     BrowserModule,

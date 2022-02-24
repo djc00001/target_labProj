@@ -1,0 +1,24 @@
+.card{
+    max-width: 389.32px;
+    max-height: 474.81px;
+    border: none;
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+.card-link:hover{
+    text-decoration: underline;
+    color: #333333;
+}
+
+.card-title{
+    color: #333333;
+    font-weight: bold;
+}
+
+.card-description{
+    color: #333333;
+    font-size: smaller;
+}

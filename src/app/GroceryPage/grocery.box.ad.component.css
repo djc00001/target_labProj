@@ -2,12 +2,16 @@
     height: 130px;
 }
 
+.url{
+    text-decoration: none;
+}
+
 .non-red-text{
     color: #444444;
 }
 
 .red-text{
-    color: red;
+    color: #e40a0a;;
     text-decoration: none;
 }
 
