@@ -24,6 +24,8 @@ import { GroceryIdeasBox } from './GroceryPage/grocery.ideas.box.component';
 import { WhatsLatest } from './WomenPage/whats.latest.component';
 import { StyleBoost } from './WomenPage/style.boost.component';
 import { StyleBoxCard } from './WomenPage/style.boxcard.component';
+import { GroceryButtons } from './GroceryPage/grocery.buttons.component';
+import { GroceryButtonsBackground } from './GroceryPage/grocery.buttons.background.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +48,8 @@ import { StyleBoxCard } from './WomenPage/style.boxcard.component';
     GroceryBoxAd,
     GroceryDeals,
     GroceryIdeasBox,
+    GroceryButtonsBackground,
+    GroceryButtons,
     WhatsLatest,
     StyleBoost,
     StyleBoxCard

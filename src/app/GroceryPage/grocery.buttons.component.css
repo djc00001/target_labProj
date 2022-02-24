@@ -1,0 +1,28 @@
+button{
+    margin: 5px;
+    background-color: white;
+    color: #333333;
+    font-weight: bold;
+    border-color: #969696;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background: white;
+}
+
+.icon1{
+    color: #e40a0a;
+}
+
+.icon2{
+    color:#969696
+}
+
+.icon3{
+    color: #e40a0a;
+}
+
+.icon4{
+    color: rgb(194, 163, 122);
+}
