@@ -1,0 +1,18 @@
+.card{
+    border: none;
+    max-width: 1200px;
+    max-height: 175px;
+}
+
+.bckgrnd-img{
+    width: 1200px;
+}
+
+.btn-primary{
+    color: gray;
+    background-color: white;
+    border-color: gray;
+    margin-left: 720px;
+    margin-top: -200px;
+    border-radius: 2px;
+}

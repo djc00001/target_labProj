@@ -1,0 +1,12 @@
+.info-text{
+    color: gray;
+}
+
+.url{
+    text-decoration: underline;
+    color: gray;
+}
+
+.url:hover{
+    text-decoration: none;
+}

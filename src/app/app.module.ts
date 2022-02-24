@@ -21,6 +21,7 @@ import { MenRouteComponent } from './Routing/men-route.component';
 import { GroceryBoxAd } from './GroceryPage/grocery.box.ad.component';
 import { GroceryDeals } from './GroceryPage/grocery.deals.component';
 import { GroceryIdeasBox } from './GroceryPage/grocery.ideas.box.component';
+import { WhatsLatest } from './WomenPage/whats.latest.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { GroceryIdeasBox } from './GroceryPage/grocery.ideas.box.component';
     MenRouteComponent,
     GroceryBoxAd,
     GroceryDeals,
-    GroceryIdeasBox
+    GroceryIdeasBox,
+    WhatsLatest
   ],
   imports: [
     BrowserModule,
