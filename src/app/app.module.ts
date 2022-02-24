@@ -26,6 +26,8 @@ import { StyleBoost } from './WomenPage/style.boost.component';
 import { StyleBoxCard } from './WomenPage/style.boxcard.component';
 import { GroceryButtons } from './GroceryPage/grocery.buttons.component';
 import { GroceryButtonsBackground } from './GroceryPage/grocery.buttons.background.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component'
 
 @NgModule({
   declarations: [
@@ -52,11 +54,13 @@ import { GroceryButtonsBackground } from './GroceryPage/grocery.buttons.backgrou
     GroceryButtons,
     WhatsLatest,
     StyleBoost,
-    StyleBoxCard
+    StyleBoxCard,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
