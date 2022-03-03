@@ -1,3 +1,15 @@
+LAB ASSIGNMENT 6
+Main Features
+- Created a new firebase database for my target website
+- Added my personal info inside of the database
+- Used Angular in order to retrieve info from the backend database
+- Created a component which would display the info recieved from the backend
+
+Side Features:
+- None this week
+
+
+
 LAB ASSIGNMENT 5
 Main Features:
 - Added 6 new components in total between the grocery page and the women page
