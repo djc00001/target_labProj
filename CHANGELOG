@@ -1,3 +1,14 @@
+LAB ASSIGNMENT 7
+Main Features
+- Moved contents of the boxcard mock list to the realtime database
+- Created a service component that obtains the mock data from the database
+- Uses the service component to display the data on the website rather than having the list file
+
+Side Features:
+- None this week
+
+
+
 LAB ASSIGNMENT 6
 Main Features
 - Created a new firebase database for my target website
