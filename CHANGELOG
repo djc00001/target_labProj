@@ -1,3 +1,14 @@
+LAB ASSIGNMENT 8
+Main Features
+- Set up Angular Fire Library
+- Created a service component to retrieve data from the firebase database
+- Deployed my webapp to be accessible without running it from my own machine
+
+Side Features
+- None this week
+
+
+
 LAB ASSIGNMENT 7
 Main Features
 - Moved contents of the boxcard mock list to the realtime database
