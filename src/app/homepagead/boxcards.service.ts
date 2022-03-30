@@ -20,4 +20,8 @@ export class BoxcardService {
     public getBoxcard(index:number){
         return this.db.list("boxcards", ref => ref.orderByChild("title").startAt(10)).valueChanges();
     }
+
+    addBoxcard(boxcard:BoxcardCompModel) {
+        this.db.list<BoxcardCompModel>("boxcards").push(boxcard);
+    }
 }
