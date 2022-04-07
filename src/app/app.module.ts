@@ -36,6 +36,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddCardComponent } from './homepagead/add-card/add-card.component'
 import { FormsModule } from '@angular/forms';
 import { BoxcardBackground } from './homepagead/boxcard.background.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -65,7 +66,8 @@ import { BoxcardBackground } from './homepagead/boxcard.background.component';
     StyleBoost,
     StyleBoxCard,
     UserInfoComponent,
-    AddCardComponent
+    AddCardComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,

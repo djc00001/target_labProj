@@ -8,6 +8,7 @@ import { WomenRouteComponent } from './Routing/women-route.component';
 import { GroceryRouteComponent } from './Routing/grocery-route.component';
 import { MenRouteComponent } from './Routing/men-route.component';
 import { AddCardComponent } from './homepagead/add-card/add-card.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes: Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path: 'Women', component: WomenRouteComponent},
   {path: 'Grocery', component: GroceryRouteComponent},
   {path: 'Men', component: MenRouteComponent},
-  {path: 'Admin', component: AddCardComponent}
+  {path: 'Admin', component: AddCardComponent},
+  {path: 'Auth', component: AuthenticationComponent}
 
 ];
 
