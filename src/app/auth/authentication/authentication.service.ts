@@ -22,4 +22,15 @@ export class AuthenticationService {
         '?' + 'key=' + environment.firebase.apiKey,
         requestPayload);
     }
+
+    public signIn(email: string, password: string) {
+        const requestPayload = {
+            'email': email,
+            'password': password,
+            'returnSecureToken': true
+        }
+         return this.http.post(this.baseUrl + ':' + this.signUpEndpoint + 
+        '?' + 'key=' + environment.firebase.apiKey,
+        requestPayload);
+    }
 }

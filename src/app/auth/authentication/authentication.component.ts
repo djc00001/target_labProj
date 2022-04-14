@@ -24,6 +24,12 @@ export class AuthenticationComponent implements OnInit {
       }
     );
 
+    this.auth.signIn(data.value.email, data.value.password).subscribe(
+      data => {
+        console.log(data);
+      }
+    );
+
     data.reset();
   }
 }
