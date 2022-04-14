@@ -1,3 +1,14 @@
+LAB ASSIGNMENT 10
+Main Features
+- Enabled firebase authentication, so only authenticated users can read/write
+- Created an authentication component form and service.
+- Connected the service to the backend in order to save user data.
+
+Side Features
+- None this week
+
+
+
 LAB ASSIGNMENT 9
 Main Features
 - Created a from for adding new boxcard components to the homepage
